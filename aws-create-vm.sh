@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# create and terminat a virtual machine
+# create and terminate a virtual machine
 
 AMIID="$(aws ec2 describe-images --filters "Name=name,Values=amzn-ami-hvm-2017.09.1.*-x86_64-gp2" --query "Images[0].ImageId" --output text)"
 VPCID="$(aws ec2 describe-vpcs --filter "Name=isDefault, Values=true" --query "Vpcs[0].VpcId" --output text)"
