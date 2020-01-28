@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -e # -e causes the shell to exit if any command fails
 
 # create and terminate a virtual machine
 
