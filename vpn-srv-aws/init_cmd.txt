@@ -1,2 +1,3 @@
 # this command is issued on Linux host with AWS CLI installed
 curl -s https://raw.githubusercontent.com/ghXplorer/aws-scripts/master/vpn-srv-aws/vpn-cf-stack.sh | bash -ex
+#
